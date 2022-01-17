@@ -17,8 +17,8 @@ def converter(hora, minuto):
 
 while True:
     print() 
-    stop = input('Deseja parar o programa: [y] ou [n]: ')
-    if stop == 'y':
+    stop = input('Deseja parar o programa: [s] ou [n]: ')
+    if stop == 's':
         break
     elif stop == 'n':
         hora = int(input('Digite a hora: '))
